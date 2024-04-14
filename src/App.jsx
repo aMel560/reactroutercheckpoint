@@ -11,12 +11,13 @@ const App = () => {
       title: "Inception",
       description:
         "A thief who enters the dreams of others to steal their secrets from their subconscious.",
-      posterURL: "inception-poster.jpg",
+      posterURL:
+        "https://th.bing.com/th/id/OIP.Vg7gE_hwMujcoiqNbwekmAHaF7?w=218&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       note: 4.5,
-      trailerURL: "https://www.youtube.com/embed/YoHD9XEInc0",
+      trailerURL: "https://youtu.be/HcoZbHBDHQA?si=elrnKAumjiPt_9-4",
     },
     // Add more movies here
-  ]);
+  ]); //iuhnj
 
   const [filteredMovies, setFilteredMovies] = useState([...movies]);
 
